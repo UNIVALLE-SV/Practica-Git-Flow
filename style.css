@@ -4,6 +4,26 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Hacemos que body use flex para empujar el footer abajo */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main ocupa todo el espacio disponible menos el footer */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* El content crece para empujar el footer */
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 nav {
     display: flex;
@@ -25,4 +45,13 @@ li {
 li:hover {
     color: aqua;
     cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: rgb(150, 150, 150);
+    border-top: 1px solid rgb(230, 230, 230);
 }
