@@ -43,6 +43,7 @@ ul {
 li {
     color: white;
     list-style: none;
+    transition: color 0.2;
 }
 
 li:hover {
