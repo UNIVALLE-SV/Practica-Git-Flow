@@ -59,3 +59,13 @@ footer {
     color: rgb(150, 150, 150);
     border-top: 1px solid rgb(230, 230, 230);
 }
+
+.sec-imgs img {
+    max-width: 100%;
+}
+
+.sec-imgs>div {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
