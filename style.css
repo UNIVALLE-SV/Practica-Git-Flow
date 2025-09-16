@@ -24,7 +24,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 70rem;
+    max-width: 80ch;
     margin: 0 auto;
 }
 
